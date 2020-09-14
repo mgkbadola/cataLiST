@@ -24,25 +24,66 @@ input{
   width: 100%;
   box-sizing: border-box;
 }
-select{
+
+select {
   width: 100%;
   alignment: center;
 }
-.add{
+
+.add {
   border: none;
   background-color: transparent;
+  text-align: center;
 }
-.button{
+
+select {
+  text-align-last: center;
+  text-align: center;
+  -ms-text-align-last: center;
+  -moz-text-align-last: center;
+}
+
+datalist {
+  text-align-last: center;
+  text-align: center;
+  -ms-text-align-last: center;
+  -moz-text-align-last: center;
+}
+
+.button {
   background-color: black;
   color: white;
   border-radius: .5rem;
 }
-.small{
+
+.small {
   width: 10%;
 }
-.medium{
+
+.medium {
   width: 20%;
 }
-.large{
+
+.large {
   width: 40%;
+}
+
+#warning-message {
+  display: none;
+}
+
+@media only screen and (orientation: portrait) {
+  #wrapper {
+    display: none;
+  }
+
+  #warning-message {
+    display: block;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  #warning-message {
+    display: none;
+  }
 }

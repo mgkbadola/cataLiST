@@ -16,7 +16,6 @@ router.get('/', function(req, res, next) {
 });
 router.post('/', function(req, res, next) {
     var game = req.body
-    console.log(game)
     db.insertgame(game.name, game.year, game.platform, game.series, game.played)
     db.insertsingle('platforms',game.platform)
     if(game.genre.size!==1)

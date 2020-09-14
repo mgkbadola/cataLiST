@@ -64,27 +64,26 @@ function insertshow(name,type,language,year,watched){
         connection.query(
             sql,
             function (err,rows,cols) {
-                if(err){
+                if (err) {
                     reject(err)
                     console.log('error aa gaya!')
-                }
-                else
+                } else
                     resolve(rows)
             }
         )
     });
 }
-function insertfilm(name,year,region,watched){
-    return new Promise(function (resolve, reject){
-        var sql=`insert ignore into films values ("${name}",${year},"${region}",${watched});`
+
+function insertfilm(name, year, language, series, watched) {
+    return new Promise(function (resolve, reject) {
+        var sql = `insert ignore into films values ("${name}",${year},"${language}",${series},${watched});`
         connection.query(
             sql,
-            function (err,rows,cols) {
-                if(err){
+            function (err, rows, cols) {
+                if (err) {
                     reject(err)
                     console.log('error aa gaya!')
-                }
-                else
+                } else
                     resolve(rows)
             }
         )

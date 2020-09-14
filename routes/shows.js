@@ -14,7 +14,6 @@ router.get('/', function(req, res, next) {
 });
 router.post('/', function(req, res, next) {
     var show=req.body
-    console.log(show)
     db.insertshow(show.name,show.type,show.language,show.year,show.watched)
     db.insertsingle('languages', show.language).then(()=>
         res.redirect('shows'))
