@@ -43,7 +43,7 @@ select {
   -moz-text-align-last: center;
 }
 
-datalist {
+option {
   text-align-last: center;
   text-align: center;
   -ms-text-align-last: center;

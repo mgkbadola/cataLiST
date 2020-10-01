@@ -20,15 +20,22 @@ function getalldata(condition){
             sql='select * from films'
             break
         case 'gg':
-            sql='select * from game_genres'
+            sql = 'select * from game_genres'
             break
         case 'l':
-            sql='select * from languages'
+            sql = 'select * from languages'
             break
         case 'p':
-            sql='select * from platforms'
+            sql = 'select * from platforms'
             break
-        default: console.log('no data returned')
+        case 'r':
+            sql = 'select * from reddit_saved'
+            break
+        case 'sub':
+            sql = 'select * from subreddits'
+            break
+        default:
+            console.log('no data returned')
     }
     return new Promise(function (resolve, reject){
         connection.query(
@@ -111,22 +118,38 @@ function insertsingle(table,value){
         connection.query(
             sql,
             function (err,rows,cols) {
-                if(err){
+                if (err) {
                     reject(err)
                     console.log('error aa gaya!')
-                }
-                else
+                } else
                     resolve(rows)
             }
         )
     });
 }
 
-module.exports={
+function insert_reddit(name, sub, link = null) {
+    return new Promise(function (resolve, reject) {
+        var sql = `insert ignore into reddit_saved values ("${name}","${sub}","${link}");`
+        connection.query(
+            sql,
+            function (err, rows, cols) {
+                if (err) {
+                    reject(err)
+                    console.log('error aa gaya!')
+                } else
+                    resolve(rows)
+            }
+        )
+    });
+}
+
+module.exports= {
     getalldata,
     insertgame,
     insertshow,
     insertfilm,
     insertgenregame,
-    insertsingle
+    insertsingle,
+    insert_reddit
 }

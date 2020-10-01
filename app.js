@@ -9,6 +9,7 @@ var usersRouter = require('./routes/users');
 var gamesRouter = require('./routes/games');
 var showsRouter = require('./routes/shows');
 var filmsRouter = require('./routes/films');
+var redditRouter = require('./routes/saveddit')
 
 var app = express();
 
@@ -26,7 +27,8 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/games',gamesRouter);
 app.use('/shows',showsRouter);
-app.use('/films',filmsRouter);
+app.use('/films', filmsRouter);
+app.use('/saveddit', redditRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
