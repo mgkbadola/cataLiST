@@ -1,5 +1,5 @@
 # Project exclude paths
 node_modules/
-routes/main.py
-routes/env/
+env/
 .vscode/
+jayson.json
