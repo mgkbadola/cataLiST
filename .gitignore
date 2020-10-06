@@ -1,7 +1,5 @@
 # Project exclude paths
 node_modules/
-/--SQL Queries.sql
 routes/main.py
 routes/env/
 .vscode/
-routes/op.txt
