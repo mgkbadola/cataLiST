@@ -5,7 +5,7 @@ var db = require('../db')
 router.get('/', function(req, res, next) {
     db.getalldata('l').then((languages) => {
         db.getalldata('f').then((films) => {
-            res.render('films', {films, languages, title: "cataLiST - Films"});
+            res.render('films', {films, languages, title: "Films"});
         })
             .catch((err) => {
                 res.send(err)

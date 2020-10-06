@@ -9,10 +9,8 @@
 <body>
 <div id="wrapper">
     <div class="container">
-        <div class="block-heading">
-            <h2 class="text-info" style="display: inline">rLiST</h2>
-            <a href="/" style="margin-left: 80%;">Go back</a>
-        </div>
+            <h2 class="text-info" style="float: left;">rLiST</h2>
+            <a href="/" style="float: right;">Go back</a>
     </div>
     <div class="container">
         <input type="text" id="myInput" class="search-box" placeholder="Search via name..." onkeyup="search()"
@@ -26,35 +24,18 @@
                 <col style="width: 20%"/>
                 <col style="width: 10%"/>
             </colgroup>
-            <tr>
+            <tr style="background-color: black; color: white;">
                 <th onclick="sortTable(0)">Name</th>
                 <th onclick="sortTable(1)">Subreddit</th>
                 <th>Link</th>
             </tr>
             <tbody>
-            <form action="saveddit" method="POST" autocomplete="off">
-                <tr style="background-color: #c3e6cb;">
-                    <td class="addtd"><input class="add" type="text" name="name" required></td>
-                    <td class="addtd">
-                        <input list="sub" class="add" name="sub">
-                        <datalist id="sub">
-                            <% for(x of subreddits){ %>
-                            <option value="<%= x.name %>">
-                                <% } %>
-                        </datalist>
-                    </td>
-                    <td class="addtd"><input class="add" type="text" name="link" required></td>
-                </tr>
+            <% for(index in savedposts){ %>
                 <tr>
-                    <td colspan="3"><input type="submit" value="+ADD A SAVED POST" class="button"></td>
-                </tr>
-            </form>
-            <% for(post of reddit){ %>
-                <tr>
-                    <td><%= post.Name %></td>
-                    <td><%= post.Subreddit %></td>
+                    <td><%= savedposts[index]["Name"].toString() %></td>
+                    <td><%= savedposts[index]["Subreddit"].toString() %></td>
                     <td>
-                        <a target="_blank" href="https://reddit.com/r/<%= post.Subreddit %>/comments/<%= post.Link %>">
+                        <a target="_blank" href="<%= savedposts[index]["Link"].toString()%>">
                             Link
                         </a>
                     </td>

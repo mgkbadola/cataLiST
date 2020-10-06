@@ -6,7 +6,7 @@ router.get('/', function(req, res, next) {
     db.getalldata('g').then((games)=>
         db.getalldata('gg').then((game_genres)=>
             db.getalldata('p').then((platforms)=>
-                res.render('games', {games, game_genres,platforms, title: "cataLIST - Games"}
+                res.render('games', {games, game_genres,platforms, title: "Games"}
                 )
             )
         )

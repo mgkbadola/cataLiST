@@ -1,22 +1,13 @@
 var express = require('express');
 var router = express.Router();
-var db = require('../db')
 
+const spawn = require("child_process").spawn;
 router.get('/', function (req, res, next) {
-    db.getalldata('sub').then((subreddits) =>
-        db.getalldata('r').then((reddit) =>
-            res.render('saveddit', {subreddits, reddit, title: "cataLIST - Saved Reddit Posts/Comments"}
-            )
-        )
-    ).catch((err) => {
-        res.send(err)
-    })
-});
-router.post('/', function (req, res, next) {
-    var reddit = req.body
-    db.insert_reddit(reddit.name, reddit.sub, reddit.link)
-    db.insertsingle('subreddits', reddit.sub)
-    res.redirect('saveddit')
+    var prog = spawn('python3',['/media/mgkali/Data/Visual Studio Projects/Web/cataLiST/routes/main.py'])
+    prog.stdout.on('data', function (data){
+        const savedposts = JSON.parse(data);
+        res.render('saveddit', {savedposts, title: "Saved Reddit Posts"})
+    });
 });
 
 module.exports = router;

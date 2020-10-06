@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title><%= title %></title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <link rel='stylesheet' href='/bootstrap/stylesheets/bootstrap.min.css'/>
-        <link rel='stylesheet' href='/stylesheets/style.css'/>
-    </head>
+<head>
+    <title><%= title %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel='stylesheet' href='/bootstrap/stylesheets/bootstrap.min.css'/>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
     <div id="wrapper">
-        <body>
         <div class="container">
-            <div class="block-heading">
-                <h2 class="text-info" style="display: inline">gLiST</h2>
-                <a href="/" style="margin-left: 80%;">Go back</a>
-            </div>
+            <h2 class="text-info" style="float: left;">gLiST</h2>
+            <a href="/" style="float: right;">Go back</a>
         </div>
         <div class="container">
             <input type="text" id="myInput" class="search-box" placeholder="Search via name..." onkeyup="search()"
@@ -105,11 +103,11 @@
             </form>
         </div>
         <br/>
-        </body>
     </div>
     <div id="warning-message">
         <h1>Rotate your screen to access the website!</h1>
     </div>
+</body>    
 </html>
 <script src="/javascripts/script.js"></script>
 <script>
