@@ -3,3 +3,6 @@ node_modules/
 env/
 .vscode/
 jayson.json
+genres.json
+platforms.json
+o.json
