@@ -26,18 +26,18 @@
                         <col class="medium"/>
                     </colgroup>
                     <tr style="background-color: black; color: white;">
-                        <th onclick="sortTable(0)">Name</th>
-                        <th onclick="sortTable(1)">Year</th>
+                        <th onclick="sortTable2(0)">Name</th>
+                        <th onclick="sortTable2(1)">Year</th>
                         <th>Platforms</th>
                         <th>Genres</th>
                     </tr>
                     <tbody>
                     <% for(index in games){ %>
                     <tr>
-                        <td><%= games[index]["Name"] %></td>
-                        <td><%= games[index]["Year"] %></td>
-                        <td><%= games[index]["Platforms"] %></td>
-                        <td><%= games[index]["Genres"] %></td>
+                        <td><%= games[index]["game"] %></td>
+                        <td><%= games[index]["release_date"].match(/\d{4}/g).sort()[0] %></td>
+                        <td><%= games[index]["platforms"].replace("[","").replace("]","").replace(/"/g,'') %></td>
+                        <td><%= games[index]["genres"].replace("[","").replace("]","").replace(/"/g,'') %></td>
                     </tr>
                     <% } %>
                     </tbody>
