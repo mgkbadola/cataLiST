@@ -1,53 +1,69 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title><%= title %></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <link rel='stylesheet' href='/bootstrap/stylesheets/bootstrap.min.css'/>
-    <link rel='stylesheet' href='/stylesheets/style.css'/>
-</head>
-<body>
-    <div id="wrapper">
-        <div class="container">
-            <h2 class="text-info" style="float: left;">gLiST</h2>
-            <a href="/" style="float: right;">Go back</a>
-        </div>
-        <div class="container">
-            <input type="text" id="myInput" class="search-box" placeholder="Search via name..." onkeyup="search()"
-                   title="Search for a game">
-        </div>
-        <br/>
-        <div class="container">
-                <table id="game-table" class="table table-striped table-bordered">
-                    <colgroup>
-                        <col class="small"/>
-                        <col class="small"/>
-                        <col class="medium"/>
-                        <col class="medium"/>
-                    </colgroup>
-                    <tr style="background-color: black; color: white;">
-                        <th onclick="sortTable2(0)">Name</th>
-                        <th onclick="sortTable2(1)">Year</th>
-                        <th>Platforms</th>
-                        <th>Genres</th>
-                    </tr>
-                    <tbody>
-                    <% for(index in games){ %>
-                    <tr>
-                        <td><%= games[index]["game"] %></td>
-                        <td><%= games[index]["release_date"].match(/\d{4}/g).sort()[0] %></td>
-                        <td><%= games[index]["platforms"].replace("[","").replace("]","").replace(/"/g,'') %></td>
-                        <td><%= games[index]["genres"].replace("[","").replace("]","").replace(/"/g,'') %></td>
-                    </tr>
-                    <% } %>
-                    </tbody>
-                </table>
-        </div>
-        <br/>
-    </div>
-    <div id="warning-message">
-        <h1>Rotate your screen to access the website!</h1>
-    </div>
-</body>    
-</html>
-<script src="/javascripts/script.js"></script>
+<div class="container">
+    <input type="text" id="search1" class="search-box" placeholder="Search In Watched Games..."
+           onkeyup="search('search1', '<%= header %>1')" title="Search for a game"/>
+</div>
+<br/>
+<div class="container">
+    <table id="<%= header %>1" class="table table-bordered">
+        <colgroup>
+            <col class="small"/>
+            <col class="small"/>
+            <col class="medium"/>
+            <col class="medium"/>
+        </colgroup>
+        <thead>
+        <tr style="background-color: #9147ff">
+            <th>Name</th>
+            <th>Year</th>
+            <th>Platform(s)</th>
+            <th>Genre(s)</th>
+        </tr>
+        </thead>
+        <tbody>
+        <% for(let item of watch){ %>
+            <tr>
+                <td><%= item["name"] %></td>
+                <td><%= item["year"] %></td>
+                <td><%= item["platforms"].join(', ') %></td>
+                <td><%= item["genres"].join(', ') %></td>
+            </tr>
+        <% } %>
+        </tbody>
+    </table>
+</div>
+<br/>
+<br/>
+<div class="container">
+    <input type="text" id="search2" class="search-box" placeholder="Search In Played Games..."
+           onkeyup="search('search2', '<%= header %>2')"/>
+</div>
+<br/>
+<div class="container">
+    <table id="<%= header %>2" class="table table-bordered">
+        <colgroup>
+            <col class="small"/>
+            <col class="small"/>
+            <col class="medium"/>
+            <col class="medium"/>
+        </colgroup>
+        <thead>
+        <tr style="background-color: #9147ff">
+            <th>Name</th>
+            <th>Year</th>
+            <th>Platform(s)</th>
+            <th>Genre(s)</th>
+        </tr>
+        </thead>
+        <tbody>
+        <% for(let item of play){ %>
+            <tr>
+                <td><%= item["name"] %></td>
+                <td><%= item["year"] %></td>
+                <td><%= item["platforms"].join(', ') %></td>
+                <td><%= item["genres"].join(', ') %></td>
+            </tr>
+        <% } %>
+        </tbody>
+    </table>
+</div>
+<br/>

@@ -1,88 +1,125 @@
 body {
-  font-size: 12px;
+    font-size: 12px;
+    background-color: #030303;
 }
 
 a {
-  color: #00B7FF;
+    color: #00B7FF;
 }
-table{
-  width: 100%;
-  text-align: center;
-  table-layout: fixed;
+
+table {
+    width: 100%;
+    text-align: center;
 }
-.table th,.table td{
-  padding: 0.5rem;
+
+table, table th, table td {
+    border: none !important;
 }
-.table th{
-  font-size: 14px;
-  cursor: pointer;
+
+.table th, .table td {
+    padding: 0.5rem;
 }
-.search-box{
-  width: 100%;
+
+.table th {
+    font-size: 14px;
 }
-input{
-  width: 100%;
-  box-sizing: border-box;
+
+.search-box {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    background: none;
+    border-style: solid;
+    outline: none;
+    color: white;
+    border-width: 0 0 1px;
 }
 
 select {
-  width: 100%;
+    width: 100%;
 }
 
 .add {
-  border: none;
-  background-color: transparent;
-  text-align: center;
+    border: none;
+    background-color: transparent;
+    text-align: center;
 }
 
 select {
-  text-align-last: center;
-  text-align: center;
-  -ms-text-align-last: center;
-  -moz-text-align-last: center;
+    text-align-last: center;
+    text-align: center;
+    -ms-text-align-last: center;
+    -moz-text-align-last: center;
 }
 
 option {
-  text-align-last: center;
-  text-align: center;
-  -ms-text-align-last: center;
-  -moz-text-align-last: center;
+    text-align-last: center;
+    text-align: center;
+    -ms-text-align-last: center;
+    -moz-text-align-last: center;
 }
 
 .button {
-  background-color: black;
-  color: white;
-  border-radius: .5rem;
+    background-color: black;
+    color: white;
+    border-radius: .5rem;
 }
 
 .small {
-  width: 10%;
+    width: 10%;
 }
 
 .medium {
-  width: 20%;
+    width: 20%;
 }
 
 .large {
-  width: 40%;
+    width: 40%;
 }
 
 #warning-message {
-  display: none;
+    display: none;
 }
 
 @media only screen and (orientation: portrait) {
-  #wrapper {
-    display: none;
-  }
+    #wrapper {
+        display: none;
+    }
 
-  #warning-message {
-    display: block;
-  }
+    #warning-message {
+        display: block;
+    }
 }
 
 @media only screen and (orientation: landscape) {
-  #warning-message {
-    display: none;
-  }
+    #warning-message {
+        display: none;
+    }
+}
+
+tr:nth-child(even) {
+    background-color: #262627;
+}
+
+tr:nth-child(odd) {
+    background-color: #151516;
+}
+
+td, th {
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+td, td > a, td > a:hover {
+    color: #D7DADC;
+    text-decoration: none;
+}
+
+pre code {
+    background-color: black;
+    color: #0f0;
 }

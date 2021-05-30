@@ -1,21 +1,14 @@
-var express = require('express');
-var router = express.Router();
-var db = require('../db')
+const express = require('express');
+const router = express.Router();
+const fs = require("fs");
+const path = require('path');
 
-router.get('/', function(req, res, next) {
-    db.getalldata('s').then((shows)=>{
-        db.getalldata('l').then((languages)=>{
-            res.render('shows', {shows, languages, title: "Shows"});
-        })
+router.get('/', function (req, res) {
+    const DIR = path.join(path.dirname(__dirname), '\\public\\assets\\')
+    fs.readFile(path.join(DIR, 'tv_shows.json'), function (err, data) {
+        let shows = JSON.parse(data.toString())
+        res.render('template', {shows, title: "TV Shows", header: "sLiST"})
     })
-        .catch((err)=>{
-            res.send(err)
-        })
 });
-router.post('/', function(req, res, next) {
-    var show=req.body
-    db.insertshow(show.name,show.type,show.language,show.year,show.watched)
-    db.insertsingle('languages', show.language).then(()=>
-        res.redirect('shows'))
-});
+
 module.exports = router;

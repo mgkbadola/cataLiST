@@ -1,54 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title><%= title %></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <link rel='stylesheet' href='/bootstrap/stylesheets/bootstrap.min.css'/>
-    <link rel='stylesheet' href='/stylesheets/style.css'/>
-</head>
-<body>
-<div id="wrapper">
-    <div class="container">
-            <h2 class="text-info" style="float: left;">rLiST</h2>
-            <a href="/" style="float: right;">Go back</a>
-    </div>
-    <div class="container">
-        <input type="text" id="myInput" class="search-box" placeholder="Search via name..." onkeyup="search()"
-               title="Search for a post">
-    </div>
-    <br/>
-    <div class="container">
-        <table id="game-table" class="table table-striped table-bordered">
-            <colgroup>
-                <col style="width: 70%"/>
-                <col style="width: 20%"/>
-                <col style="width: 10%"/>
-            </colgroup>
-            <tr style="background-color: black; color: white;">
-                <th onclick="sortTable2(0)">Name</th>
-                <th onclick="sortTable2(1)">Subreddit</th>
-                <th>Link</th>
-            </tr>
-            <tbody>
-            <% for(index in savedposts){ %>
-                <tr>
-                    <td><%= savedposts[index]["Name"].toString() %></td>
-                    <td><%= savedposts[index]["Subreddit"].toString() %></td>
-                    <td>
-                        <a target="_blank" href="<%= savedposts[index]["Link"].toString()%>">
-                            Link
-                        </a>
-                    </td>
+<div class="container">
+    <input type="text" id="search1" class="search-box" placeholder="Search In Posts..."
+           onkeyup="search('search1','<%= header %>1')">
+</div>
+<br/>
+<div class="container">
+    <table id="<%= header %>1" class="table table-bordered">
+        <colgroup>
+            <col style="width: 80%"/>
+            <col style="width: 20%"/>
+        </colgroup>
+        <thead>
+        <tr style="background-color: #ff4500;">
+            <th>Name</th>
+            <th>Subreddit</th>
+        </tr>
+        </thead>
+        <tbody>
+        <% for(let post of posts){ %>
+            <% if (post['nsfw'] === true){ %>
+            <tr style="background: red">
+                <% }else{ %>
             <tr>
                 <% } %>
-            </tbody>
-        </table>
-    </div>
-    <br/>
+                <td><a target="_blank" href="https://reddit.com<%= post["link"] %>">
+                        <%= post["title"] %>
+                    </a>
+                </td>
+                <td><%= post["subreddit"] %></td>
+            </tr>
+        <% } %>
+        </tbody>
+    </table>
 </div>
-<div id="warning-message">
-    <h1>Rotate your screen to access the website!</h1>
+<br/>
+<br/>
+<div class="container">
+    <input type="text" id="search2" class="search-box" placeholder="Search In Comments..."
+           onkeyup="search('search2','<%= header %>2')">
 </div>
-</body>
-</html>
-<script src="/javascripts/script.js"></script>
+<br/>
+<div class="container">
+    <table id="<%= header %>2" class="table table-bordered">
+        <colgroup>
+            <col style="width: 70%"/>
+            <col style="width: 20%"/>
+            <col style="width: 10%"/>
+        </colgroup>
+        <thead>
+        <tr style="background-color: #ff4500;">
+            <th>Comment Data</th>
+            <th>Original Post</th>
+            <th>Subreddit</th>
+        </tr>
+        </thead>
+        <tbody>
+        <% for(let comment of comments){ %>
+            <% if (comment['nsfw'] === true){ %>
+            <tr style="background: red">
+                <% }else{ %>
+            <tr>
+                <% } %>
+                <td><%- comment["body"] -%></td>
+                <td>
+                    <a target="_blank" href="https://reddit.com<%= comment["link"] %>">
+                        <%= comment["post"] %>
+                    </a>
+                </td>
+                <td><%= comment["subreddit"] %></td>
+            </tr>
+        <% } %>
+        </tbody>
+    </table>
+</div>

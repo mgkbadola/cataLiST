@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title><%= title %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel='stylesheet' href='/bootstrap/stylesheets/bootstrap.min.css'/>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
+<div id="wrapper">
+    <div class="container">
+        <h2 class="text-info" style="float: left;"><%= header %></h2>
+        <a href="/" style="float: right;">Go back</a>
+    </div>
+    <% if (header === 'sLiST' || header === 'fLiST'){ %>
+        <div class="container">
+            <input type="text" id="search" class="search-box" placeholder="Search In <%= title %>..."
+                   onkeyup="search('search','<%= header %>')">
+        </div>
+        <br/>
+        <div class="container">
+            <table id="<%= header %>" class="table table-bordered">
+                <colgroup>
+                    <col style="width: 30%"/>
+                    <col style="width: 60%"/>
+                    <col style="width: 10%"/>
+                </colgroup>
+                <thead>
+                <tr style="background-color: #fcf518; color: black;">
+                    <th>Name</th>
+                    <th>Genre(s)</th>
+                    <th>Year</th>
+                </tr>
+                </thead>
+                <% if (header === 'sLiST'){ %><%- include('shows') -%>
+                <% }else{ %><%- include('films') -%>
+                <% } %>
+            </table>
+        </div>
+    <% }else if(header === 'rLiST'){ %><%- include('saveddit') -%>
+    <% }else{ %><%- include('games') -%>
+    <% } %>
+    <br/>
+</div>
+<div id="warning-message">
+    <h1>Rotate your screen to access the website!</h1>
+</div>
+</body>
+<script src="/javascripts/script.js"></script>

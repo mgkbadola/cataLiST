@@ -1,20 +1,14 @@
-var express = require('express');
-var router = express.Router();
-var db = require('../db')
+const express = require('express');
+const router = express.Router();
+const fs = require("fs");
+const path = require('path')
 
-router.get('/', function(req, res, next) {
-    db.getalldata('l').then((languages) => {
-        db.getalldata('f').then((films) => {
-            res.render('films', {films, languages, title: "Films"});
-        })
-            .catch((err) => {
-                res.send(err)
-            })
+router.get('/', function (req, res) {
+    const DIR = path.join(path.dirname(__dirname), '\\public\\assets\\')
+    fs.readFile(path.join(DIR, 'films.json'), function (err, data) {
+        let films = JSON.parse(data.toString())
+        res.render('template', {films, title: "Films", header: "fLiST"})
     })
 });
-router.post('/', function(req, res, next) {
-    var film=req.body
-    db.insertfilm(film.name, film.year, film.language, film.series, film.watched).then(() =>
-        res.redirect('films'))
-});
+
 module.exports = router;

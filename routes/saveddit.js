@@ -1,13 +1,21 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
+const fs = require('fs');
+const path = require('path');
 
-const spawn = require("child_process").spawn;
-router.get('/', function (req, res, next) {
-    var prog = spawn('python3',['reddit.py'])
-    prog.stdout.on('data', function (data){
-        const savedposts = JSON.parse(data);
-        res.render('saveddit', {savedposts, title: "Saved Reddit Posts"})
-    });
+router.get('/', function (req, res) {
+    const DIR = path.join(path.dirname(__dirname), '\\public\\assets\\')
+    fs.readFile(path.join(DIR, 'comments.json'), function (err, data) {
+        let comments = JSON.parse(data.toString())
+        fs.readFile(path.join(DIR, 'posts.json'), function (err2, data2) {
+            let posts = JSON.parse(data2.toString())
+            res.render('template', {
+                posts, comments,
+                title: "Saved Reddit Posts and Comments",
+                header: "rLiST"
+            })
+        })
+    })
 });
 
 module.exports = router;

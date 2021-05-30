@@ -1,6 +1,4 @@
 # Project exclude paths
 node_modules/
-env/
-.vscode/
-jayson.json
-o.txt
+.idea/
+env.json
