@@ -1,0 +1,34 @@
+<div class="container">
+    <input type="text" id="search" class="search-box" placeholder="Search In Watched Games..."
+           onkeyup="search('search', '<%= header %>')"/>
+</div>
+<br/>
+<div class="container">
+    <table id="<%= header %>" class="table table-bordered">
+        <colgroup>
+            <col class="small"/>
+            <col class="small"/>
+            <col class="medium"/>
+            <col class="medium"/>
+        </colgroup>
+        <thead>
+        <tr style="background-color: #9147ff">
+            <th>Name</th>
+            <th>Year</th>
+            <th>Platform(s)</th>
+            <th>Genre(s)</th>
+        </tr>
+        </thead>
+        <tbody>
+        <% for(let item of watch){ %>
+            <tr>
+                <td><%= item["name"] %></td>
+                <td><%= item["year"] %></td>
+                <td><%= item["platforms"].join(', ') %></td>
+                <td><%= item["genres"].join(', ') %></td>
+            </tr>
+        <% } %>
+        </tbody>
+    </table>
+</div>
+<br/>

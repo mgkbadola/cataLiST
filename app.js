@@ -6,9 +6,8 @@ const logger = require('morgan');
 
 const indexRouter = require('./routes/index');
 const gamesRouter = require('./routes/games');
-const showsRouter = require('./routes/shows');
-const filmsRouter = require('./routes/films');
-const redditRouter = require('./routes/saveddit')
+const films_shows_Router = require('./routes/fs');
+const redditRouter = require('./routes/saveddit');
 
 const app = express();
 
@@ -23,9 +22,8 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use('/games',gamesRouter);
-app.use('/shows',showsRouter);
-app.use('/films', filmsRouter);
+app.use('/games', gamesRouter);
+app.use('/fs', films_shows_Router);
 app.use('/saveddit', redditRouter);
 
 // catch 404 and forward to error handler

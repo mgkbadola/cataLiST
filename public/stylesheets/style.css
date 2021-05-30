@@ -123,3 +123,32 @@ pre code {
     background-color: black;
     color: #0f0;
 }
+
+#divMenuContainer {
+    width: 100%;
+    background-color: #111;
+    overflow: auto;
+}
+
+#divMenuContainer a {
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+}
+
+.a30 {
+    width: 30%;
+}
+
+#back {
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    width: 10%;
+}

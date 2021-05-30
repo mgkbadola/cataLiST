@@ -7,38 +7,39 @@
     <link rel='stylesheet' href='/stylesheets/style.css'/>
 </head>
 <body>
+<div id="divMenuContainer">
+    <a id="back" href="/">➤</a>
+    <% if (header === 'rLiST'){ %>
+        <style>#divMenuContainer a:hover {
+                color: #ff4500;
+            }</style>
+        <a class="a30" href="/saveddit">Home</a>
+        <a class="a30" href="/saveddit/posts">Saved Posts</a>
+        <a class="a30" href="/saveddit/comments">Saved Comments</a>
+    <% }else if (header === 'fsLiST'){ %>
+        <style>#divMenuContainer a:hover {
+                color: #fcf518;
+            }</style>
+        <a class="a30" href="/fs">Home</a>
+        <a class="a30" href="/fs/films">Films</a>
+        <a class="a30" href="/fs/shows">TV Shows</a>
+    <% }else{ %>
+        <style>#divMenuContainer a:hover {
+                color: #9147ff;
+            }</style>
+        <a class="a30" href="/games">Home</a>
+        <a class="a30" href="/games/played">Played Games</a>
+        <a class="a30" href="/games/watched">Watched Games</a>
+    <% } %>
+</div>
 <div id="wrapper">
-    <div class="container">
-        <h2 class="text-info" style="float: left;"><%= header %></h2>
-        <a href="/" style="float: right;">Go back</a>
-    </div>
-    <% if (header === 'sLiST' || header === 'fLiST'){ %>
-        <div class="container">
-            <input type="text" id="search" class="search-box" placeholder="Search In <%= title %>..."
-                   onkeyup="search('search','<%= header %>')">
-        </div>
-        <br/>
-        <div class="container">
-            <table id="<%= header %>" class="table table-bordered">
-                <colgroup>
-                    <col style="width: 30%"/>
-                    <col style="width: 60%"/>
-                    <col style="width: 10%"/>
-                </colgroup>
-                <thead>
-                <tr style="background-color: #fcf518; color: black;">
-                    <th>Name</th>
-                    <th>Genre(s)</th>
-                    <th>Year</th>
-                </tr>
-                </thead>
-                <% if (header === 'sLiST'){ %><%- include('shows') -%>
-                <% }else{ %><%- include('films') -%>
-                <% } %>
-            </table>
-        </div>
-    <% }else if(header === 'rLiST'){ %><%- include('saveddit') -%>
-    <% }else{ %><%- include('games') -%>
+    <br/>
+    <% if (Url === '/posts'){ %><%- include('posts') -%>
+    <% }else if(Url === '/comments'){ %><%- include('comments') -%>
+    <% }else if(Url === '/shows'){ %><%- include('shows') -%>
+    <% }else if(Url === '/films'){ %><%- include('films') -%>
+    <% }else if(Url === '/played'){ %><%- include('played') -%>
+    <% }else if(Url === '/watched'){ %><%- include('watched') -%>
     <% } %>
     <br/>
 </div>
