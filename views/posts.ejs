@@ -6,31 +6,28 @@
 <div class="container">
     <table id="<%= header %>" class="table table-bordered">
         <colgroup>
-            <col style="width: 70%"/>
+            <col style="width: 80%"/>
             <col style="width: 20%"/>
-            <col style="width: 10%"/>
         </colgroup>
         <thead>
         <tr style="background-color: #ff4500;">
-            <th>Comment Data</th>
-            <th>Original Post</th>
+            <th>Post Title</th>
             <th>Subreddit</th>
         </tr>
         </thead>
         <tbody>
-        <% for(let comment of comments){ %>
-            <% if (comment['nsfw'] === true){ %>
+        <% for(let post of posts){ %>
+            <% if (post['nsfw'] === true){ %>
             <tr style="background: red">
                 <% }else{ %>
             <tr>
                 <% } %>
-                <td><%- comment["body"] -%></td>
                 <td>
-                    <a target="_blank" href="https://reddit.com<%= comment["link"] %>">
-                        <%= comment["post"] %>
+                    <a target="_blank" href="https://reddit.com<%= post["link"] %>">
+                        <%= post["title"] %>
                     </a>
                 </td>
-                <td><%= comment["subreddit"] %></td>
+                <td><%= post["subreddit"] %></td>
             </tr>
         <% } %>
         </tbody>

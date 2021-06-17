@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const fs = require("fs");
 const path = require('path')
-const DIR = path.join(path.dirname(__dirname), '\\public\\assets\\')
+const DIR = path.join(path.dirname(__dirname), '/public/assets/')
 
 router.get('/', function (req, res) {
     res.render('template', {

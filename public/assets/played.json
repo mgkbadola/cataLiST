@@ -1,0 +1,1435 @@
+[
+  {
+    "name": "Dota 2",
+    "year": "2013",
+    "genres": [
+      "Strategy",
+      "MOBA"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "Mac"
+    ]
+  },
+  {
+    "name": "Among Us",
+    "year": "2018",
+    "genres": [
+      "Strategy",
+      "Indie"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Android",
+      "iOS",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch",
+      "PlayStation 5",
+      "Xbox Series"
+    ]
+  },
+  {
+    "name": "Rocket League",
+    "year": "2015",
+    "genres": [
+      "Racing",
+      "Sport",
+      "Indie"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "Mac",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch",
+      "PlayStation 5",
+      "Xbox Series"
+    ]
+  },
+  {
+    "name": "Fall Guys: Ultimate Knockout",
+    "year": "2020",
+    "genres": [
+      "Platform",
+      "Adventure",
+      "Indie"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch",
+      "Xbox Series"
+    ]
+  },
+  {
+    "name": "The Jackbox Party Pack 5",
+    "year": "2018",
+    "genres": [
+      "Quiz/Trivia",
+      "Indie"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "Mac",
+      "Android",
+      "iOS",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch",
+      "Amazon Fire TV"
+    ]
+  },
+  {
+    "name": "The Jackbox Party Pack 6",
+    "year": "2019",
+    "genres": [
+      "Quiz/Trivia",
+      "Indie"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "Mac",
+      "Android",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch",
+      "Amazon Fire TV"
+    ]
+  },
+  {
+    "name": "Use Your Words",
+    "year": "2017",
+    "genres": [
+      "Indie",
+      "Card & Board Game"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Mac",
+      "Wii U",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ]
+  },
+  {
+    "name": "Pummel Party",
+    "year": "2018",
+    "genres": [
+      "Indie"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ]
+  },
+  {
+    "name": "Drawful 2",
+    "year": "2016",
+    "genres": [
+      "Strategy",
+      "Quiz/Trivia",
+      "Indie"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "Mac",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch",
+      "Amazon Fire TV"
+    ]
+  },
+  {
+    "name": "Auto Chess",
+    "year": "2019",
+    "genres": [
+      "Strategy",
+      "Card & Board Game"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "Mac",
+      "PlayStation 4",
+      "PlayStation 5"
+    ]
+  },
+  {
+    "name": "Dota Underlords",
+    "year": "2019",
+    "genres": [
+      "Strategy",
+      "Tactical",
+      "Card & Board Game"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "Mac",
+      "Android",
+      "iOS"
+    ]
+  },
+  {
+    "name": "Age of Empires",
+    "year": "1997",
+    "genres": [
+      "Real Time Strategy (RTS)",
+      "Simulator",
+      "Strategy",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Mac"
+    ]
+  },
+  {
+    "name": "Age of Mythology",
+    "year": "2002",
+    "genres": [
+      "Real Time Strategy (RTS)",
+      "Strategy"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Mac"
+    ]
+  },
+  {
+    "name": "Rise of Nations",
+    "year": "2003",
+    "genres": [
+      "Real Time Strategy (RTS)",
+      "Strategy"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Mac"
+    ]
+  },
+  {
+    "name": "Rise of Nations: Thrones & Patriots",
+    "year": "2004",
+    "genres": [
+      "Real Time Strategy (RTS)",
+      "Strategy"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Mac"
+    ]
+  },
+  {
+    "name": "Batman: Arkham Asylum - Game of the Year Edition",
+    "year": "2010",
+    "genres": [
+      "Hack and slash/Beat 'em up",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 3",
+      "Xbox 360",
+      "Mac"
+    ]
+  },
+  {
+    "name": "Batman: Arkham City - Game of the Year Edition",
+    "year": "2012",
+    "genres": [
+      "Hack and slash/Beat 'em up",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 3",
+      "Mac"
+    ]
+  },
+  {
+    "name": "Batman: Arkham Knight - Game of the Year Edition",
+    "year": "2016",
+    "genres": [
+      "Fighting",
+      "Hack and slash/Beat 'em up",
+      "Adventure"
+    ],
+    "platforms": [
+      "PlayStation 4",
+      "Xbox One"
+    ]
+  },
+  {
+    "name": "Batman: Arkham Origins - Collector's Edition",
+    "year": "2013",
+    "genres": [
+      "Fighting",
+      "Hack and slash/Beat 'em up",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 3",
+      "Xbox 360"
+    ]
+  },
+  {
+    "name": "Caesar III",
+    "year": "1998",
+    "genres": [
+      "Simulator",
+      "Strategy"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ]
+  },
+  {
+    "name": "Road Rash",
+    "year": "1991",
+    "genres": [
+      "Fighting",
+      "Racing"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation",
+      "Amiga",
+      "Game Boy Color",
+      "Sega Mega Drive/Genesis",
+      "Sega Saturn",
+      "Game Boy",
+      "Sega Game Gear",
+      "3DO Interactive Multiplayer",
+      "Sega Master System",
+      "Sega CD"
+    ]
+  },
+  {
+    "name": "DOOM",
+    "year": "1993",
+    "genres": [
+      "Shooter"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "PlayStation",
+      "Xbox 360",
+      "PC DOS",
+      "Mac",
+      "Super Nintendo Entertainment System (SNES)",
+      "Game Boy Advance",
+      "Sega 32X",
+      "Sega Saturn",
+      "iOS",
+      "PlayStation 4",
+      "3DO Interactive Multiplayer",
+      "Super Famicom",
+      "Atari Jaguar",
+      "Nintendo Switch"
+    ]
+  },
+  {
+    "name": "Counter-Strike: Global Offensive",
+    "year": "2012",
+    "genres": [
+      "Shooter",
+      "Tactical"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "PlayStation 3",
+      "Xbox 360",
+      "Mac"
+    ]
+  },
+  {
+    "name": "Tom Clancy's The Division",
+    "year": "2016",
+    "genres": [
+      "Shooter",
+      "Role-playing (RPG)",
+      "Strategy",
+      "Tactical",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Xbox One"
+    ]
+  },
+  {
+    "name": "Battlefield 3",
+    "year": "2011",
+    "genres": [
+      "Shooter"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 3",
+      "Xbox 360"
+    ]
+  },
+  {
+    "name": "Battlefield V",
+    "year": "2018",
+    "genres": [
+      "Shooter"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Xbox One"
+    ]
+  },
+  {
+    "name": "Need for Speed: Most Wanted",
+    "year": "2012",
+    "genres": [
+      "Racing"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 3",
+      "Xbox 360",
+      "iOS",
+      "PlayStation Vita"
+    ]
+  },
+  {
+    "name": "Need for Speed: Hot Pursuit 2",
+    "year": "2002",
+    "genres": [
+      "Racing",
+      "Simulator"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 2",
+      "Xbox",
+      "Nintendo GameCube"
+    ]
+  },
+  {
+    "name": "Need for Speed: Most Wanted 5-1-0",
+    "year": "2005",
+    "genres": [
+      "Racing",
+      "Arcade"
+    ],
+    "platforms": [
+      "PlayStation Portable"
+    ]
+  },
+  {
+    "name": "RollerCoaster Tycoon",
+    "year": "1999",
+    "genres": [
+      "Simulator",
+      "Strategy"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Xbox"
+    ]
+  },
+  {
+    "name": "RollerCoaster Tycoon 3",
+    "year": "2004",
+    "genres": [
+      "Real Time Strategy (RTS)",
+      "Simulator",
+      "Strategy"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Mac",
+      "iOS"
+    ]
+  },
+  {
+    "name": "RollerCoaster Tycoon 2",
+    "year": "2002",
+    "genres": [
+      "Simulator",
+      "Strategy"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ]
+  },
+  {
+    "name": "Zoo Tycoon",
+    "year": "2001",
+    "genres": [
+      "Simulator",
+      "Strategy"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Mac"
+    ]
+  },
+  {
+    "name": "Zoo Tycoon 2",
+    "year": "2004",
+    "genres": [
+      "Simulator",
+      "Strategy"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Mac"
+    ]
+  },
+  {
+    "name": "Midtown Madness",
+    "year": "1999",
+    "genres": [
+      "Racing",
+      "Simulator"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ]
+  },
+  {
+    "name": "Midtown Madness 2",
+    "year": "2000",
+    "genres": [
+      "Racing",
+      "Simulator"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ]
+  },
+  {
+    "name": "Virtua Cop 2",
+    "year": "1996",
+    "genres": [
+      "Shooter"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Dreamcast",
+      "Sega Saturn"
+    ]
+  },
+  {
+    "name": "Moto Racer 3",
+    "year": "2001",
+    "genres": [
+      "Racing",
+      "Sport"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ]
+  },
+  {
+    "name": "Motocross Madness",
+    "year": "1998",
+    "genres": [
+      "Racing",
+      "Sport"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ]
+  },
+  {
+    "name": "HITMAN 2",
+    "year": "2018",
+    "genres": [
+      "Shooter",
+      "Tactical"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Xbox One",
+      "Google Stadia"
+    ]
+  },
+  {
+    "name": "Cricket 97",
+    "year": "1997",
+    "genres": [
+      "Sport"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PC DOS"
+    ]
+  },
+  {
+    "name": "Cricket 2005",
+    "year": "2005",
+    "genres": [
+      "Sport"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 2",
+      "Xbox"
+    ]
+  },
+  {
+    "name": "Brian Lara Cricket '99",
+    "year": "1998",
+    "genres": [
+      "Sport"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation"
+    ]
+  },
+  {
+    "name": "Harry Potter and the Prisoner of Azkaban",
+    "year": "2004",
+    "genres": [
+      "Platform",
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ]
+  },
+  {
+    "name": "Harry Potter and the Order of the Phoenix",
+    "year": "2007",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "Wii",
+      "PC (Microsoft Windows)",
+      "PlayStation 2",
+      "PlayStation 3",
+      "Xbox 360",
+      "Mac",
+      "Nintendo DS",
+      "PlayStation Portable"
+    ]
+  },
+  {
+    "name": "Spider-Man",
+    "year": "2000",
+    "genres": [
+      "Hack and slash/Beat 'em up",
+      "Adventure"
+    ],
+    "platforms": [
+      "Nintendo 64",
+      "PC (Microsoft Windows)",
+      "PlayStation",
+      "Game Boy Color",
+      "Dreamcast"
+    ]
+  },
+  {
+    "name": "Spider-Man 2",
+    "year": "2004",
+    "genres": [
+      "Hack and slash/Beat 'em up",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 2",
+      "Xbox",
+      "Mac",
+      "Nintendo DS",
+      "Nintendo GameCube",
+      "Game Boy Advance",
+      "PlayStation Portable",
+      "N-Gage"
+    ]
+  },
+  {
+    "name": "FIFA 13",
+    "year": "2012",
+    "genres": [
+      "Simulator",
+      "Sport"
+    ],
+    "platforms": [
+      "Wii",
+      "PC (Microsoft Windows)",
+      "PlayStation 2",
+      "PlayStation 3",
+      "Xbox 360",
+      "Android",
+      "Nintendo 3DS",
+      "PlayStation Portable",
+      "iOS",
+      "Wii U",
+      "PlayStation Vita"
+    ]
+  },
+  {
+    "name": "FIFA 14",
+    "year": "2013",
+    "genres": [
+      "Sport"
+    ],
+    "platforms": [
+      "Wii",
+      "PC (Microsoft Windows)",
+      "PlayStation 2",
+      "PlayStation 3",
+      "Xbox 360",
+      "Android",
+      "Nintendo 3DS",
+      "PlayStation Portable",
+      "iOS",
+      "PlayStation Vita",
+      "PlayStation 4",
+      "Xbox One"
+    ]
+  },
+  {
+    "name": "Pro Evolution Soccer 2013",
+    "year": "2012",
+    "genres": [
+      "Sport"
+    ],
+    "platforms": [
+      "Wii",
+      "PC (Microsoft Windows)",
+      "PlayStation 2",
+      "PlayStation 3",
+      "Xbox 360",
+      "Nintendo 3DS",
+      "PlayStation Portable",
+      "PlayStation Vita"
+    ]
+  },
+  {
+    "name": "Pro Evolution Soccer 2014",
+    "year": "2013",
+    "genres": [
+      "Sport"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 2",
+      "PlayStation 3",
+      "Xbox 360",
+      "Nintendo 3DS",
+      "PlayStation Portable"
+    ]
+  },
+  {
+    "name": "Tony Hawk's Pro Skater 2",
+    "year": "2000",
+    "genres": [
+      "Sport"
+    ],
+    "platforms": [
+      "Nintendo 64",
+      "PC (Microsoft Windows)",
+      "PlayStation",
+      "Xbox",
+      "Mac",
+      "Game Boy Color",
+      "Dreamcast",
+      "Game Boy Advance",
+      "iOS"
+    ]
+  },
+  {
+    "name": "Pocket Tanks Deluxe",
+    "year": "2009",
+    "genres": [
+      "Strategy"
+    ],
+    "platforms": [
+      "iOS"
+    ]
+  },
+  {
+    "name": "Star Wars: Galactic Battlegrounds",
+    "year": "2001",
+    "genres": [
+      "Real Time Strategy (RTS)",
+      "Simulator",
+      "Strategy"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Mac"
+    ]
+  },
+  {
+    "name": "SimCity 4",
+    "year": "2003",
+    "genres": [
+      "Simulator",
+      "Strategy"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Mac"
+    ]
+  },
+  {
+    "name": "Grand Theft Auto III",
+    "year": "2001",
+    "genres": [
+      "Shooter",
+      "Racing",
+      "Simulator",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 2",
+      "Xbox",
+      "Mac",
+      "Android",
+      "iOS",
+      "PlayStation 4"
+    ]
+  },
+  {
+    "name": "Grand Theft Auto: San Andreas",
+    "year": "2004",
+    "genres": [
+      "Shooter",
+      "Racing",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 2",
+      "PlayStation 3",
+      "Xbox",
+      "Xbox 360",
+      "Mac",
+      "Android",
+      "iOS",
+      "PlayStation 4"
+    ]
+  },
+  {
+    "name": "Grand Theft Auto: Vice City",
+    "year": "2002",
+    "genres": [
+      "Shooter",
+      "Racing",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 2",
+      "Xbox",
+      "Mac",
+      "Android",
+      "iOS",
+      "PlayStation 4"
+    ]
+  },
+  {
+    "name": "Grand Theft Auto V",
+    "year": "2013",
+    "genres": [
+      "Shooter",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 3",
+      "Xbox 360",
+      "PlayStation 4",
+      "Xbox One"
+    ]
+  },
+  {
+    "name": "Grand Theft Auto: Vice City Stories",
+    "year": "2006",
+    "genres": [
+      "Racing",
+      "Adventure"
+    ],
+    "platforms": [
+      "PlayStation 2",
+      "PlayStation Portable"
+    ]
+  },
+  {
+    "name": "Grand Theft Auto: Liberty City Stories",
+    "year": "2005",
+    "genres": [
+      "Racing",
+      "Adventure"
+    ],
+    "platforms": [
+      "PlayStation 2",
+      "Android",
+      "PlayStation Portable",
+      "iOS"
+    ]
+  },
+  {
+    "name": "Midnight Club 3: DUB Edition",
+    "year": "2005",
+    "genres": [
+      "Racing"
+    ],
+    "platforms": [
+      "PlayStation 2",
+      "Xbox",
+      "PlayStation Portable"
+    ]
+  },
+  {
+    "name": "Midnight Club: Los Angeles",
+    "year": "2008",
+    "genres": [
+      "Racing",
+      "Arcade"
+    ],
+    "platforms": [
+      "PlayStation 3",
+      "Xbox 360",
+      "PlayStation Portable"
+    ]
+  },
+  {
+    "name": "Need for Speed III: Hot Pursuit",
+    "year": "1998",
+    "genres": [
+      "Racing",
+      "Simulator"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation"
+    ]
+  },
+  {
+    "name": "Dishonored",
+    "year": "2012",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 3",
+      "Xbox 360",
+      "PlayStation 4",
+      "Xbox One"
+    ]
+  },
+  {
+    "name": "Disney's Aladdin",
+    "year": "1993",
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "platforms": [
+      "Super Nintendo Entertainment System (SNES)",
+      "Game Boy Advance",
+      "Super Famicom"
+    ]
+  },
+  {
+    "name": "Warcraft III: Reign of Chaos",
+    "year": "2002",
+    "genres": [
+      "Real Time Strategy (RTS)",
+      "Strategy"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Mac"
+    ]
+  },
+  {
+    "name": "Warcraft III: The Frozen Throne",
+    "year": "2003",
+    "genres": [
+      "Real Time Strategy (RTS)",
+      "Strategy"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Mac"
+    ]
+  },
+  {
+    "name": "Prototype",
+    "year": "2009",
+    "genres": [
+      "Platform",
+      "Hack and slash/Beat 'em up",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 3",
+      "Xbox 360",
+      "PlayStation 4",
+      "Xbox One"
+    ]
+  },
+  {
+    "name": "Prototype 2",
+    "year": "2012",
+    "genres": [
+      "Platform",
+      "Hack and slash/Beat 'em up",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 3",
+      "Xbox 360",
+      "PlayStation 4",
+      "Xbox One"
+    ]
+  },
+  {
+    "name": "Crysis 2",
+    "year": "2011",
+    "genres": [
+      "Shooter",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 3",
+      "Xbox 360"
+    ]
+  },
+  {
+    "name": "Crysis 3",
+    "year": "2013",
+    "genres": [
+      "Shooter",
+      "Strategy",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 3",
+      "Xbox 360"
+    ]
+  },
+  {
+    "name": "SUPERHOT",
+    "year": "2016",
+    "genres": [
+      "Shooter",
+      "Puzzle",
+      "Tactical",
+      "Indie"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "Mac",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch",
+      "Google Stadia"
+    ]
+  },
+  {
+    "name": "Assassin's Creed: Bloodlines",
+    "year": "2009",
+    "genres": [
+      "Adventure"
+    ],
+    "platforms": [
+      "PlayStation Portable"
+    ]
+  },
+  {
+    "name": "PUBG Mobile",
+    "year": "2018",
+    "genres": [
+      "Shooter",
+      "Strategy"
+    ],
+    "platforms": [
+      "Android",
+      "iOS"
+    ]
+  },
+  {
+    "name": "PUBG LITE",
+    "year": "2019",
+    "genres": [
+      "Shooter"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ]
+  },
+  {
+    "name": "Warfork",
+    "year": "2019",
+    "genres": [
+      "Shooter",
+      "Tactical",
+      "Indie"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "Mac"
+    ]
+  },
+  {
+    "name": "Metro 2033 Redux",
+    "year": "2014",
+    "genres": [
+      "Shooter",
+      "Role-playing (RPG)"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "Mac",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch",
+      "Google Stadia"
+    ]
+  },
+  {
+    "name": "Jump King",
+    "year": "2019",
+    "genres": [
+      "Platform",
+      "Adventure",
+      "Indie"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ]
+  },
+  {
+    "name": "Happy Wheels",
+    "year": "2010",
+    "genres": [
+      "Platform",
+      "Racing",
+      "Adventure"
+    ],
+    "platforms": [
+      "Android",
+      "iOS",
+      "Web browser"
+    ]
+  },
+  {
+    "name": "Purble Place",
+    "year": "2007",
+    "genres": [
+      "Puzzle"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ]
+  },
+  {
+    "name": "Deceit",
+    "year": "2017",
+    "genres": [
+      "Shooter",
+      "Tactical",
+      "Indie"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)"
+    ]
+  },
+  {
+    "name": "Poly Bridge 2",
+    "year": "2020",
+    "genres": [
+      "Puzzle",
+      "Simulator",
+      "Indie"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "Mac"
+    ]
+  },
+  {
+    "name": "Goat Simulator",
+    "year": "2014",
+    "genres": [
+      "Simulator",
+      "Indie"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "PlayStation 3",
+      "Xbox 360",
+      "Mac",
+      "Android",
+      "iOS",
+      "PlayStation 4",
+      "Xbox One"
+    ]
+  },
+  {
+    "name": "Dark Souls III",
+    "year": "2016",
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Xbox One"
+    ]
+  },
+  {
+    "name": "GeoGuessr",
+    "year": "2013",
+    "genres": [],
+    "platforms": [
+      "Web browser"
+    ]
+  },
+  {
+    "name": "Pokémon Emerald",
+    "year": "2004",
+    "genres": [
+      "Role-playing (RPG)",
+      "Turn-based strategy (TBS)",
+      "Adventure"
+    ],
+    "platforms": [
+      "Game Boy Advance"
+    ]
+  },
+  {
+    "name": "Words On Stream",
+    "year": "2019",
+    "genres": [
+      "Quiz/Trivia"
+    ],
+    "platforms": [
+      "Web browser"
+    ]
+  },
+  {
+    "name": "VALORANT",
+    "year": "2020",
+    "genres": [
+      "Shooter",
+      "Tactical"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)"
+    ]
+  },
+  {
+    "name": "Pokémon HeartGold",
+    "year": "2009",
+    "genres": [
+      "Role-playing (RPG)",
+      "Turn-based strategy (TBS)",
+      "Adventure"
+    ],
+    "platforms": [
+      "Nintendo DS"
+    ]
+  },
+  {
+    "name": "Verse Surf",
+    "year": "2020",
+    "genres": [
+      "Music",
+      "Quiz/Trivia",
+      "Indie",
+      "Card & Board Game"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "Mac"
+    ]
+  },
+  {
+    "name": "The Jackbox Party Pack 4",
+    "year": "2017",
+    "genres": [
+      "Strategy",
+      "Quiz/Trivia",
+      "Indie"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "Mac",
+      "Android",
+      "iOS",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch",
+      "Amazon Fire TV"
+    ]
+  },
+  {
+    "name": "The Jackbox Party Pack 3",
+    "year": "2016",
+    "genres": [
+      "Strategy",
+      "Quiz/Trivia",
+      "Indie"
+    ],
+    "platforms": [
+      "Linux",
+      "PC (Microsoft Windows)",
+      "Mac",
+      "Android",
+      "iOS",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch",
+      "Amazon Fire TV"
+    ]
+  },
+  {
+    "name": "QuizUp",
+    "year": "2013",
+    "genres": [
+      "Quiz/Trivia"
+    ],
+    "platforms": [
+      "Android",
+      "iOS"
+    ]
+  },
+  {
+    "name": "Inotia 3: Children of Carnia",
+    "year": "2011",
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "platforms": [
+      "Android"
+    ]
+  },
+  {
+    "name": "Homerun Battle 3D",
+    "year": "",
+    "genres": [],
+    "platforms": []
+  },
+  {
+    "name": "Grand Theft Auto IV: Complete Edition",
+    "year": "2010",
+    "genres": [
+      "Shooter",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 3",
+      "Xbox 360"
+    ]
+  },
+  {
+    "name": "Hill Climb Racing",
+    "year": "2012",
+    "genres": [
+      "Racing"
+    ],
+    "platforms": [
+      "Android",
+      "iOS"
+    ]
+  },
+  {
+    "name": "Subway Surfers",
+    "year": "2012",
+    "genres": [
+      "Platform",
+      "Adventure",
+      "Arcade"
+    ],
+    "platforms": [
+      "Android",
+      "iOS",
+      "Windows Phone",
+      "Web browser"
+    ]
+  },
+  {
+    "name": "Candy Crush Saga",
+    "year": "2012",
+    "genres": [
+      "Puzzle",
+      "Arcade"
+    ],
+    "platforms": [
+      "Android",
+      "iOS"
+    ]
+  },
+  {
+    "name": "Paper Toss",
+    "year": "2009",
+    "genres": [
+      "Simulator"
+    ],
+    "platforms": [
+      "iOS"
+    ]
+  },
+  {
+    "name": "Diamond Rush",
+    "year": "2006",
+    "genres": [
+      "Puzzle",
+      "Adventure"
+    ],
+    "platforms": [
+      "Mobile"
+    ]
+  },
+  {
+    "name": "Apex Legends",
+    "year": "2019",
+    "genres": [
+      "Shooter"
+    ],
+    "platforms": [
+      "PC (Microsoft Windows)",
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ]
+  }
+]
